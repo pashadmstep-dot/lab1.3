@@ -1,4 +1,5 @@
 #include <iostream>
+#include <Windows.h>
 int main() {
 	setlocale(LC_ALL, "RU");
 	double start, end, step;
