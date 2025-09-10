@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
 int main() {
+	system("chcp 1251");
 	setlocale(LC_ALL, "RU");
 	double start, end, step;
 	std::cout << "¬ведите начальное значение x: ";
